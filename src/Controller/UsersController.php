@@ -83,7 +83,6 @@ class UsersController extends AppController
         ];
         //debug($this->paginate);exit;
         $users = $this->paginate($this->Users);
-        //debug($users);
         $this->set(compact('users'));
         $this->set('_serialize', ['users']);
     }
@@ -394,7 +393,6 @@ class UsersController extends AppController
             ];
         //debug($this->paginate);
         $users = $this->paginate($this->Users);
-        //debug($users);
         $this->set(compact('users', 'favouriteList'));
         $this->set('_serialize', ['users']);
         }
@@ -520,7 +518,6 @@ class UsersController extends AppController
             ];
         //debug($this->paginate);
         $users = $this->paginate($this->Users);
-        //debug($users);
         $this->set(compact('users', 'interestSentList'));
         $this->set('_serialize', ['users']);
         }
@@ -563,7 +560,6 @@ class UsersController extends AppController
             ];
         //debug($this->paginate);
         $users = $this->paginate($this->Users);
-        //debug($users);
         $this->set(compact('users', 'interestReceiveList'));
         $this->set('_serialize', ['users']);
         }
