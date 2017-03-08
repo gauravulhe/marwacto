@@ -450,7 +450,7 @@ class UsersController extends AppController
 
 
     /**
-     * Dislike method
+     * Interest Retrive method
      *
      * @param string|null $id User id.
      * @return \Cake\Network\Response|null Redirects to index.
